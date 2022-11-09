@@ -1009,7 +1009,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Our Team Styling 
+	 Team Styling 
 --------------------------------------------------------*/
 .member-role {
   position: absolute;
@@ -1445,7 +1445,7 @@ blockquote {
 /* Three columns side by side */
 .column-team {
   float: left;
-  width: 50%;
+  width: 33.33%;
   margin-bottom: 16px;
   padding: 30 10px;
 }
