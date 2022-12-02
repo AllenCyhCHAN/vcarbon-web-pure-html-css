@@ -505,7 +505,7 @@ input.mainBtn {
 }
 
 .parallax-overlay {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .pageTitle {
@@ -521,7 +521,7 @@ input.mainBtn {
 }
 
 .page-location {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(141, 214, 153, 0.8);
   display: inline-block;
   font-size: 14px;
   padding: 7px 12px;
