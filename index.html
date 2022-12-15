@@ -21,7 +21,11 @@
 	<link rel="stylesheet" href="css/misc.css">
 	<link rel="stylesheet" href="css/green-scheme.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+
 	<!-- JavaScripts -->
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -34,11 +38,9 @@
         <ul class="main_menu">
 					<li><a href="index.html">Home</a>
 					</li>
-					<!-- <li><a href="#aboutus">About Us</a>
-					</li>
-					</li>
-					<li><a href="#tech">Technology</a></li> -->
-					<li><a href="ourteam.html">Our Team</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="technology.html">Technology</a></li>
+					<li><a href="blog.html">Blogs</a></li>
 					<li><a href="contactus.html">Contact Us</a></li>
         </ul> <!-- /.main_menu -->
     </div> <!-- /.responsive_menu -->
@@ -60,13 +62,13 @@
 
 						<nav class="main-nav visible-md visible-lg">
 							<ul class="sf-menu">
-								<li class="active"><a href="index.html">Home</a></li>
-					            <!-- <li><a href="#aboutus">About Us</a>
-					            </li>
-					            </li>
-											<li><a href="#tech">Technology</a></li> -->
-											<li><a href="ourteam.html">Our Team</a></li>
-					            <li><a href="contactus.html">Contact Us</a></li>
+								<li><a href="index.html">Home</a>
+								</li>
+								<li><a href="aboutus.html">About Us</a></li>
+								<li><a href="technology.html">Technology</a></li>
+								<li><a href="blog.html">Blogs</a></li>
+								<li><a href="contactus.html">Contact Us</a></li>
+							
 							</ul> <!-- /.sf-menu -->
 						</nav> <!-- /.main-nav -->
 
@@ -101,69 +103,107 @@
 	    </div> <!-- /.parallax-overlay -->
 	</section> <!-- /#homeIntro -->
 
-	<section id="aboutus" class="cta clearfix" >
+	<section class="cta clearfix" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12" >
-					<h3 class="cta-title"><strong>Want to be part of our project?	Contact Us via info@vcarbonpng.com </strong></h3>
+					<h3 class="cta-title"><strong>Want to be part of our project? </strong> Let's get in touch</h3>
+					<a href="contactus.html" class="main-button accent-color">Contact Us<i class="icon-button fa fa-arrow-right"></i></a>
 				</div> <!-- /.col-md-12 -->
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</section> <!-- /.cta -->
 
-	<section class="light-content services">
-		<div  class="container">
-				<h3 style="text-align: center; margin-bottom: 30px; margin-top: 0px; font-weight: 600;">Our Mission: Conserve the ultimate Green resources in Papua New Guinea</h3>
-				<div class="row">
-					<div class="col-md-4 col-sm-4" >
-						<div class="service-box-wrap">
-							<div class="service-cnt-wrap">
-								<h3 class="service-title" style="font-size: 16px;">Address Climage Change</h3>
-								<p>Reduce the effects of extreme climate change on earth</p>
-							</div> <!-- /.service-cnt-wrap -->
-						</div> <!-- /.service-box-wrap -->
-					</div> <!-- /.col-md-4 -->
-	
-					<div class="col-md-4 col-sm-4">
-						<div class="service-box-wrap">
-							<div class="service-icon-wrap">
-							</div> <!-- /.service-icon-wrap -->
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Emission Reduction</h3>
-								<p>Adopt strategies and find solutions to reduce GHG emissions </p>
-							</div> <!-- /.service-cnt-wrap -->
-						</div> <!-- /.service-box-wrap -->
-					</div> <!-- /.col-md-4 -->
-	
-					<div class="col-md-4 col-sm-4">
-						<div class="service-box-wrap">
-							<div class="service-cnt-wrap">
-								<h3 class="service-title">Natural Perservation</h3>
-								<p>Preserve bio-diversity and natural resources of the Earth</p>
-							</div> <!-- /.service-cnt-wrap -->
-						</div> <!-- /.service-box-wrap -->
-					</div> <!-- /.col-md-4 -->
+
+
+	<section>
+			<div class="cards" style="padding: 60px 0;">
+				<h4 class="header" style="font-size:x-large; font-weight: 600;">
+					Our Mission
+				</h4>
+				<h4 style="font-weight: 700;">Conserve the ultimate Green resources in Papua New Guinea</h4>
+				<div class="services">
+					 <div class="content">
+						<img src="images/disaster.png" style="width: 30px;" alt="">
+							<h4>
+								 Address Climate Change
+							</h4>
+							<p>
+								Reduce the effects of extreme climate change on earth	 
+							</p>
+					 </div>
+					 <div class="content">
+						 <img src="images/co2.png" style="width: 30px;" alt="">
+							<h4>
+								 Emission Reduction
+							</h4>
+							<p>
+								Adopt strategies and find solutions to reduce GHG emissions
+							</p>
+					 </div>
+					 <div class="content">
+						<img src="images/save-nature.png" style="width: 30px;" alt="">
+							<h4>
+								 Natural Perservation
+							</h4>
+							<p>
+								Preserve bio-diversity and natural resources of the Earth
+							</p>
+					 </div>
 				</div>
-				<div class="row project-single" style="margin-top: 0px; margin-bottom: 50px;">
-					<div  class="col-md-8" style="margin-top: -20px;">
-						<h3 style="text-align: center; margin-bottom: 30px;font-weight: 600;">What do we do?</h3>
-						<h4>Our primary focus is the preservation of the current Green landscape in Papua New Guinea and to find strategies to enhance and merge the Green resources into the world with an ESG-focused objective.</h4>
-						<h4>Our company aim to cater for the culture of Papua New Guinea business development and, to maintain a close partnership relationship with the landlords and locals.</h4>
-						<br id="resource">
-					</div>
-					<div class="col-md-4">
-						<div class="project-img" >
-							<img src="images/Vabari Timber Survey 401.JPG" alt="Project Image 1">
-						</div> <!-- /.project-img -->
-					</div> <!-- /.col-md-8 -->
-					</div>
-		</div> <!-- /.container -->
-	</section> <!-- /.services -->
+		 </div>
+	</section>
+
+
+	<section>
+		<div class="row project-single" style="margin-top: 0px; margin-bottom: 50px; background-color: #f1f4f5; padding-top: 80px; padding-bottom: 50px;">
+			<div class="container">
+				<div  class="col-md-6" style="margin-top: -20px;">
+					<h3 style="text-align: center; margin-bottom: 30px;font-weight: 600;">What do we do?</h3>
+					<h4>Our primary focus is the preservation of the current Green landscape in Papua New Guinea and to find strategies to enhance and merge the Green resources into the world with an ESG-focused objective.</h4>
+					<br>
+					<h4>Our company aim to cater for the culture of Papua New Guinea business development and, to maintain a close partnership relationship with the landlords and locals.</h4>
+					<br id="resource">
+				</div>
+				<div class="col-md-6">
+					<div class="project-img" >
+						<img src="images/Vabari Timber Survey 401.JPG" alt="Project Image 1">
+					</div> <!-- /.project-img -->
+				</div> <!-- /.col-md-8 -->
+				</div>
+			</div>
+	</section>
+
+	<section id="forest">
+		
+<div class="container">	
+	<div class="row project-single">
+		<div class="col-md-6">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="images/C2 bio.jpg" alt="Slide 1"></li>
+						<li><img src="images/C2 forest.jpg" alt="Slide 2"></li>
+						<!-- <li><img src="images/C2 mountain.JPG"  alt="Slide 3"></li> -->
+					</ul>
+				</div>
+
+		</div> <!-- /.col-md-8 -->
+		<div class="col-md-6">
+			<div class="project-info">
+				<!-- <span class="subtitle">Subtitle Goes here</span> -->
+				<h3 class="project-title">Intro of the forest</h3>
+				<p class="description">Sed consequat lobortis risus, in rutrum arcu tristique eget. Etiam accumsan lectus quis cursus porta.<br><br>Nam convallis neque nec magna malesuada dictum. Aliquam commodo erat non tellus porta imperdiet sit amet eu lacus.</p>
+
+			</div> <!-- /.project-info -->
+		</div> <!-- /.col-md-4 -->
+	</div> <!-- /.row -->
+</div> <!-- /.container -->	
+	</section>
 
 	<section class="tech">
 		<div class="container" >	
 			<div class="row project-single">
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<div class="project-info">
 						<span class="subtitle">Forest protection</span>
 						<h3 class="project-title">Smart-Forest management</h3>
@@ -175,7 +215,7 @@
 						</ul>
 					</div> <!-- /.project-info -->
 				</div> <!-- /.col-md-4 -->
-				<div class="col-md-8">
+				<div class="col-md-6">
 					<div class="project-img">
 						<img src="images/DSCN0212.JPG" alt="Project Image 1">
 					</div> <!-- /.project-img -->
@@ -287,7 +327,7 @@
 <section id="ourteam" style="margin-top: 60px">
 <div class="container">
 	<div class="row-team" style="margin-left: 30px; margin-right: 30px;">
-		<h1 style="text-align: center;margin-bottom: 60px; font-weight: 700;">Our Team</h1>
+		<h1 style="text-align: center;margin-bottom: 60px; font-weight: 700;">Our Executive Team</h1>
 		<div class="column-team">
 			<div class="card-team">
 				<img src="images/manly_liu.jpg" alt="Manly Liu" style="width: 100%; ">
@@ -316,10 +356,34 @@
 			</div>
 		</div>
 	</div>
-</div>
 </section>
 
-	
+<div class="container pageTitle">
+	<div class="row">
+		<div class="col-md-12 col-sm-12">
+				<a href="aboutus.html" class="page-location" style="margin-left: auto; 
+				margin-right: auto; 
+				display:table;
+				padding: 12px 15px;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-weight: 700;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				-ms-border-radius: 2px;
+				-o-border-radius: 2px;
+				border-radius: 2px;
+				background-color: #63bc63;
+  			color: white;"
+				>Learn more about our professional team</a>
+		</div> <!-- /.col-md-6 -->
+	</div> <!-- /.row -->
+</div> <!-- /.container -->
+
+
+
+
+
   <!-- Site footer -->
   <section id="contactus" style="margin-top: 80px;">
     <footer class="site-footer">
@@ -333,13 +397,12 @@
 							<div class="col-xs-6 col-md-4">
 									<h6>QUICK LINKS</h6>
 									<ul class="footer-links">
-											<li><a href="index.html">Home</a></li>
-											<!-- <li><a href="#aboutus">About Us</a>
-											</li>
-											</li>
-											<li><a href="#tech">Technology</a></li> -->
-											<li><a href="ourteam.html">Our Team</a></li>
-											<li><a href="contactus.html">Contact Us</a></li>
+										<li><a href="index.html">Home</a>
+										</li>
+										<li><a href="aboutus.html">About Us</a></li>
+										<li><a href="technology.html">Technology</a></li>
+										<li><a href="blog.html">Blogs</a></li>
+										<li><a href="contactus.html">Contact Us</a></li>
 									</ul>
 							</div>
 
@@ -383,6 +446,9 @@
 	<!-- Scripts -->
 	<script src="js/min/plugins.min.js"></script>
 	<script src="js/min/medigo-custom.min.js"></script>
+	<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 </html>

@@ -491,10 +491,21 @@ input.mainBtn {
   background-image: url("../images/testing_hero_img2.jpg");
 }
 
+#blog-single {
+  background-image: url("../images/C2\ heli.JPG");
+}
+
+#blog {
+  background-image: url("../images/contactus_banner.JPG");
+}
+
 #contact {
   background-image: url("../images/contactus_banner.JPG");
 }
 
+#aboutus {
+  background-image: url("../images/contactus_banner.JPG");
+}
 .parallax {
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -509,8 +520,8 @@ input.mainBtn {
 }
 
 .pageTitle {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .page-title {
@@ -1410,6 +1421,10 @@ blockquote {
   .project-title-safeguards {
     text-align: center;
   }
+
+  #forest .project-info {
+    margin-top: 20px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1936,4 +1951,101 @@ textarea:focus {
 
 .ourteam .team-6 .team-social a:hover {
   background: #222222;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.cards {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header {
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.cards .services {
+  display: flex;
+  align-items: center;
+}
+.cards .content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.cards .content .fab {
+  font-size: 40px;
+  margin: 16px 0;
+}
+.cards .content > * {
+  flex: 1 1 100%;
+}
+.cards .content:hover {
+  color: black;
+}
+.cards .content:hover a {
+  border-color: white;
+  background: white;
+}
+
+.cards .content:hover {
+  border-color: #b1d4b1;
+  background: #cfe6cf;
+}
+.cards .content:hover h4 {
+  font-weight: 600;
+}
+
+.cards .content:hover h4 {
+  font-weight: 600;
+}
+
+.cards .content h4 {
+  margin: 20px 0 16px 0;
+  /* text-transform: uppercase; */
+}
+.cards .content p {
+  font-size: 14px;
+  /* font-family: "Poppins", sans-serif; */
+}
+.cards .content a {
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+.cards .content a:hover {
+  border-radius: 2px;
+}
+@media (max-width: 900px) {
+  .cards .services {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+.pageTitle .row a:hover {
+  transform: scale(1.1);
+  background-color: #699969;
 }
