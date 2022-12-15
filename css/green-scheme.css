@@ -193,7 +193,7 @@ a:visited {
 .service-section,
 .first-widget {
   position: relative;
-  margin-top: 108px;
+  margin-top: 120px;
 }
 
 .light-content,
@@ -513,6 +513,7 @@ input.mainBtn {
   background-size: cover;
   color: #fff;
   overflow: hidden;
+  background-size: cover;
 }
 
 .parallax-overlay {
@@ -952,8 +953,8 @@ blockquote {
 
 .tech {
   background-color: #f1f4f5;
-  padding-bottom: 80px;
-  margin: 80px 0px;
+  /* padding-bottom: 80px; */
+  margin: 60px 0px;
 }
 .testimonial {
   text-align: center;
