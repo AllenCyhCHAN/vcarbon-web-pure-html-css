@@ -488,7 +488,7 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("../images/testing_hero_img2.jpg");
+  background-image: url("../images/view/Vabari\ Timber\ Survey\ 104.JPG");
 }
 
 #blog-single {
@@ -505,7 +505,6 @@ input.mainBtn {
 
 #aboutus {
   background-image: url("../images/view/Vabari\ Timber\ Survey\ 363.JPG");
-  
 }
 .parallax {
   background-attachment: fixed;
@@ -529,7 +528,7 @@ input.mainBtn {
 .page-title {
   color: white;
   margin: 5px 0 0 0;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
 }
 
